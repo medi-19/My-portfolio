@@ -1,0 +1,16 @@
+# robots.txt for Devd Medi Portfolio Website
+
+User-agent: *
+Disallow: /js/
+Disallow: /CSS/
+Disallow: /images/
+
+# Allow all HTML pages to be crawled
+Allow: /index.html
+Allow: /about.html
+Allow: /project.html
+Allow: /service.html
+Allow: /contact.html
+
+# Sitemap location
+Sitemap: https://www.medi-19.netlify.app/sitemap.xml
